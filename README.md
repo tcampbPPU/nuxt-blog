@@ -1,4 +1,4 @@
-# Opinionated Blog Starter for Nuxt 3
+# Opinionated Blog Format Starter for Nuxt 3
 
 ## Nuxt 3 Documentation
 
