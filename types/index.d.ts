@@ -1,4 +1,5 @@
 import type { ParsedContent } from '@nuxt/content/dist/runtime/types'
+import type { RouteLocationRaw } from 'vue-router'
 
 export {}
 declare global {
@@ -24,7 +25,7 @@ declare global {
   export namespace basic {
     export interface PrimaryNavigationLink {
       label: string
-      to: string
+      to: RouteLocationRaw
     }
   }
 }
