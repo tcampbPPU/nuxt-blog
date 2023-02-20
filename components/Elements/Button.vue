@@ -1,17 +1,12 @@
 <script setup lang="ts">
-import type { PropType } from 'vue'
+export interface Props {
+  variant: styles.BthVariant
+  size: styles.BthSize
+}
 
-const props = defineProps({
-  variant: {
-    type: String as PropType<styles.BthVariant>,
-    required: false,
-    default: 'primary',
-  },
-  size: {
-    type: String as PropType<styles.BthSize>,
-    required: false,
-    default: 'md',
-  },
+const props = withDefaults(defineProps<Props>(), {
+  variant: 'primary',
+  size: 'md',
 })
 
 const variantClasses = computed(() => {

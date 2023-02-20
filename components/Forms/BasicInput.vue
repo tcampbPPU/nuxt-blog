@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import type { PropType } from 'vue'
-import { onMounted, ref } from 'vue'
+export interface Props {
+  modelValue: string | undefined
+}
 
-defineProps({
-  modelValue: String as PropType<string>,
+const { modelValue } = withDefaults(defineProps<Props>(), {
+  modelValue: undefined,
 })
 
 const emit = defineEmits<{

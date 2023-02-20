@@ -1,15 +1,12 @@
 <script setup lang="ts">
-import type { PropType } from 'vue'
+export interface Props {
+  checked: boolean | string[]
+  value: string | undefined
+}
 
-const props = defineProps({
-  checked: {
-    type: [Boolean, Array] as PropType<boolean | string[]>,
-    default: false,
-  },
-  value: {
-    type: String as PropType<string | undefined>,
-    default: undefined,
-  },
+const props = withDefaults(defineProps<Props>(), {
+  checked: false,
+  value: undefined,
 })
 
 const emit = defineEmits<{

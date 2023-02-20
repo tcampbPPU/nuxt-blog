@@ -1,8 +1,10 @@
 <script setup lang="ts">
-import type { PropType } from 'vue'
+export interface Props {
+  message?: string
+}
 
-defineProps({
-  message: String as PropType<string>,
+const { message } = withDefaults(defineProps<Props>(), {
+  message: undefined,
 })
 </script>
 

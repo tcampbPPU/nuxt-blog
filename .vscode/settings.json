@@ -8,5 +8,6 @@
     "nuxt",
     "composables",
     "antfu"
-  ]
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

@@ -1,8 +1,10 @@
 <script setup lang="ts">
-import type { PropType } from 'vue'
+export interface Props {
+  value: string | undefined
+}
 
-defineProps({
-  value: String as PropType<string>,
+const { value } = withDefaults(defineProps<Props>(), {
+  value: undefined,
 })
 </script>
 

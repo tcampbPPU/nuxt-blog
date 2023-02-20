@@ -8,7 +8,7 @@ const { links } = useNavLinks()
   <nav>
     <ul class="flex space-x-4">
       <li v-for="link in links" :key="link.to">
-        <nuxt-link :to="link.to" class=" text-zinc-100">
+        <nuxt-link :to="link.to" class="text-zinc-100">
           {{ link.label }}
         </nuxt-link>
       </li>
