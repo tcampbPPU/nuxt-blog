@@ -4,12 +4,19 @@ const { data } = await useAsyncData('article', () => queryContent<Article>('/art
 </script>
 
 <template>
-  <Container>
+  <!-- <Container>
     <ContentRenderer :value="data">
       <ContentRendererMarkdown :value="data" />
       <template #empty>
         <p>No content found.</p>
       </template>
     </ContentRenderer>
+  </Container> -->
+  <Container>
+    <ContentDoc>
+      <template #not-found>
+        <h1>Document not found</h1>
+      </template>
+    </ContentDoc>
   </Container>
 </template>

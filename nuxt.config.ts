@@ -1,15 +1,21 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 
+  extends: [
+    '@nuxt-themes/elements',
+    '@nuxt-themes/typography',
+  ],
+
   /**
    * @see https://nuxt.com/docs/guide/directory-structure/components
    */
   components: [
     '~/components',
-    '~/components/Elements',
-    '~/components/Forms',
-    '~/components/Layouts',
-    '~/components/Navigation',
+    '~/components/content',
+    '~/components/elements',
+    '~/components/forms',
+    '~/components/layouts',
+    '~/components/navigation',
   ],
 
   /**
@@ -18,7 +24,16 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode',
+    'nuxt-icon',
   ],
+
+  /**
+   * @see https://color-mode.nuxtjs.org
+   */
+  colorMode: {
+    classSuffix: '',
+  },
 
   /**
    * @see https://nuxt.com/docs/getting-started/configuration#environment-variables-and-private-tokens
@@ -31,7 +46,13 @@ export default defineNuxtConfig({
    * @see https://content.nuxtjs.org/api/configuration/
    */
   content: {
-    //
+    highlight: {
+      // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
+      theme: {
+        dark: 'github-dark',
+        default: 'github-light',
+      },
+    },
   },
 
 })

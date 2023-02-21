@@ -15,6 +15,15 @@ declare global {
 
   export type Articles = Array<Article>
 
+  export interface Project extends ParsedContent {
+    name: string
+    link: string
+    description: string
+    image: string
+  }
+
+  export type Projects = Array<Project>
+
 
   export namespace styles {
     export type Theme = 'light' | 'dark'
