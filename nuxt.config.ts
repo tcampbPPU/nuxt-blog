@@ -29,6 +29,8 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     'nuxt-icon',
+    'nuxt-simple-sitemap',
+    'nuxt-headlessui',
   ],
 
   /**
@@ -42,7 +44,10 @@ export default defineNuxtConfig({
    * @see https://nuxt.com/docs/getting-started/configuration#environment-variables-and-private-tokens
    */
   runtimeConfig: {
-    //
+    public: {
+
+      siteUrl: process.env.SITE_URL || 'http://localhost:3000',
+    },
   },
 
   /**
@@ -56,5 +61,36 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  headlessui: {
+    prefix: 'Headless',
+  },
+
+  // nitro: {
+  //   prerender: {
+  //     crawlLinks: true,
+  //     routes: [
+  //       '/',
+  //       '/about',
+  //       '/uses',
+  //       '/articles',
+  //       '/articles/test',
+  //       '/sitemap.xml',
+  //     ],
+  //   },
+  // },
+
+  // sitemap: {
+  //   // provide dynamic URLs to be included
+  //   urls: async () => {
+  //     const blogPages = await getBlogPages()
+  //     return blogPages.map(page => ({
+  //       url: `/blog/${page.slug}`,
+  //       lastmod: page.updatedAt,
+  //       changefreq: 'daily',
+  //       priority: 0.8,
+  //     }))
+  //   },
+  // },
 
 })
