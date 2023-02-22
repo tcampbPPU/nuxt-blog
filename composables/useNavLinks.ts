@@ -1,10 +1,6 @@
 export function useNavLinks() {
   const links: basic.PrimaryNavigationLink[] = [
     {
-      label: 'Home',
-      to: '/',
-    },
-    {
       label: 'About',
       to: '/about',
     },
@@ -13,19 +9,16 @@ export function useNavLinks() {
       to: '/projects',
     },
     {
-      label: 'Uses',
-      to: '/uses',
-    },
-    {
       label: 'Articles',
       to: '/articles',
     },
+    {
+      label: 'Uses',
+      to: '/uses',
+    },
   ]
-
-  const linksWithoutHome = links.slice(1)
 
   return {
     links,
-    linksWithoutHome,
   }
 }

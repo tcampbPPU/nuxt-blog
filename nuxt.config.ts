@@ -1,6 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 
+  // target: 'static',
+
   extends: [
     '@nuxt-themes/elements',
     '@nuxt-themes/typography',
@@ -14,6 +16,7 @@ export default defineNuxtConfig({
     '~/components/content',
     '~/components/elements',
     '~/components/forms',
+    '~/components/icons',
     '~/components/layouts',
     '~/components/navigation',
   ],
@@ -47,7 +50,6 @@ export default defineNuxtConfig({
    */
   content: {
     highlight: {
-      // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
       theme: {
         dark: 'github-dark',
         default: 'github-light',
