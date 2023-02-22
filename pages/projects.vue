@@ -1,12 +1,14 @@
 <script setup lang="ts">
-const { data } = await useAsyncData('projects', () => queryContent<Projects>('/projects').only(['projects']).findOne(), { immediate: true })
+import { useProjects } from '@/composables/useProjects'
+
+const { projects } = useProjects()
 </script>
 
 <template>
   <Container>
     Projects
     <pre>
-      {{ data?.projects }}
+      {{ projects }}
     </pre>
   </Container>
 </template>
