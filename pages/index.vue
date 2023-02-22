@@ -1,21 +1,7 @@
 <script setup lang="ts">
-export interface Experience {
-  company: string
-  position: string
-  start: string
-  end: string
-  logo: string
-}
+import { useResume } from '@/composables/useResume'
 
-const resume: Experience[] = [
-  {
-    company: 'Company Name',
-    position: 'Position Name',
-    start: '2021',
-    end: 'Present',
-    logo: 'https://via.placeholder.com/150',
-  },
-]
+const { resume } = useResume()
 </script>
 
 <template>
