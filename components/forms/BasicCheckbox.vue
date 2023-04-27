@@ -10,7 +10,7 @@ const props = withDefaults(defineProps<Props>(), {
 })
 
 const emit = defineEmits<{
-  (event: 'update:checked', value: boolean | string[]): void
+  (e: 'update:checked', value: boolean | string[]): void
 }>()
 
 const proxyChecked = computed({

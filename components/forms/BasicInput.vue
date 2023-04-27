@@ -8,7 +8,7 @@ const { modelValue } = withDefaults(defineProps<Props>(), {
 })
 
 const emit = defineEmits<{
-  (event: 'update:modelValue', value: string): void
+  (e: 'update:modelValue', value: string): void
 }>()
 
 const input = ref<HTMLInputElement | null>(null)

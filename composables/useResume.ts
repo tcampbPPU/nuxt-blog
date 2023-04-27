@@ -1,8 +1,9 @@
 export interface Experience {
   company: string
   position: string
+  present: boolean
   start: string
-  end: string
+  end?: string
   logo: string
 }
 
@@ -11,8 +12,8 @@ export function useResume() {
     {
       company: 'Company Name',
       position: 'Position Name',
+      present: true,
       start: '2021',
-      end: 'Present',
       logo: 'https://via.placeholder.com/150',
     },
   ]
