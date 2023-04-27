@@ -653,15 +653,15 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nuxt-themes/elements@^0.8.0":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@nuxt-themes/elements/-/elements-0.8.2.tgz#d1fc17b07767f2c71eb6fbb480c590106fc3e794"
-  integrity sha512-iVRvmOCHffjymtFLhPXbDPxNQbQI0G7waLbkznEWNQuZlQ3mNI03IpCjIlPzT29ZqW4zWWvHbrmNqYXoDOLEGQ==
+"@nuxt-themes/elements@^0.9.4":
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/@nuxt-themes/elements/-/elements-0.9.4.tgz#30809660ed1771a3c33e8140dbe23204d8aa5022"
+  integrity sha512-d7XgHc/gjMpre26+N76APL1vlnQHiZTOk61GC4I/ZYQuioSfoKuoIP+Ixrr0QgM22j4MRBtAaBnDAg1wRJrDCQ==
   dependencies:
-    "@nuxt-themes/tokens" "^1.9.0"
+    "@nuxt-themes/tokens" "^1.9.1"
     "@vueuse/core" "^9.13.0"
 
-"@nuxt-themes/tokens@^1.9.0":
+"@nuxt-themes/tokens@^1.9.1":
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/@nuxt-themes/tokens/-/tokens-1.9.1.tgz#c49ce4e8de9f9e90dedd73c66f9000755ff1a945"
   integrity sha512-5C28kfRvKnTX8Tux+xwyaf+2pxKgQ53dC9l6C33sZwRRyfUJulGDZCFjKbuNq4iqVwdGvkFSQBYBYjFAv6t75g==
