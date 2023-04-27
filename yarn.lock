@@ -542,7 +542,7 @@
   resolved "https://registry.yarnpkg.com/@iconify/types/-/types-2.0.0.tgz#ab0e9ea681d6c8a1214f30cd741fe3a20cc57f57"
   integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
 
-"@iconify/vue@^4.0.2", "@iconify/vue@^4.1.0":
+"@iconify/vue@^4.0.2", "@iconify/vue@^4.1.1":
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/@iconify/vue/-/vue-4.1.1.tgz#c143c2973a4990ba2b47b766f80a9bca97937305"
   integrity sha512-RL85Bm/DAe8y6rT6pux7D2FJSiUEM/TPfyK7GrbAOfTSwrhvwJW+S5yijdGcmtXouA8MtuH9C7l4hiSE4mLMjg==
@@ -5671,7 +5671,7 @@ nuxi@3.4.2:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt-config-schema@^0.4.4, nuxt-config-schema@^0.4.5:
+nuxt-config-schema@^0.4.4:
   version "0.4.6"
   resolved "https://registry.yarnpkg.com/nuxt-config-schema/-/nuxt-config-schema-0.4.6.tgz#4ff9b912648ddab8202c232040d5d38d0f14bef3"
   integrity sha512-kHLWJFynj5QrxVZ1MjY2xmDaTSN1BCMLGExA+hMMLoCb3wn9TJlDVqnE/nSdUJPMRkNn/NQ5WP9NLA9vlAXRUw==
@@ -5700,14 +5700,13 @@ nuxt-icon@^0.2.11:
     "@nuxt/kit" "^3.1.0"
     nuxt-config-schema "^0.4.4"
 
-nuxt-icon@^0.3.2:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/nuxt-icon/-/nuxt-icon-0.3.3.tgz#5f59b2e3fe0a1f7dc6134d89da8abf9eeeb78cae"
-  integrity sha512-KdhJAigBGTP8/YIFZ3orwetk40AgLq6VQ5HRYuDLmv5hiDptor9Ro+WIdZggHw7nciRxZvDdQkEwi9B5G/jrkQ==
+nuxt-icon@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/nuxt-icon/-/nuxt-icon-0.4.0.tgz#83ec171f182dd0217aa6d0a502182756c3b06560"
+  integrity sha512-j7phHbE4Ug2MsHvj9SidH5Nx9Bs2i/XpoH7HjQJD7DPlWNaI9srJGDOPY1g83S8i4vmDJvCc6KqkLjRasJZlYA==
   dependencies:
-    "@iconify/vue" "^4.1.0"
-    "@nuxt/kit" "^3.3.1"
-    nuxt-config-schema "^0.4.5"
+    "@iconify/vue" "^4.1.1"
+    "@nuxt/kit" "^3.4.2"
 
 nuxt-simple-sitemap@^1.0.7:
   version "1.0.9"
