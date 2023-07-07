@@ -21,7 +21,7 @@
     "nuxt": "^3.6.1",
     "nuxt-headlessui": "^1.1.4",
     "nuxt-icon": "^0.4.2",
-    "nuxt-simple-sitemap": "^2.7.0",
+    "nuxt-simple-sitemap": "^3.0.2",
     "typescript": "^5.1.6"
   },
   "pnpm": {
