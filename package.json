@@ -18,7 +18,7 @@
     "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "eslint": "^8.43.0",
-    "nuxt": "^3.6.1",
+    "nuxt": "^3.6.5",
     "nuxt-headlessui": "^1.1.4",
     "nuxt-icon": "^0.4.2",
     "nuxt-simple-sitemap": "^3.0.12",
