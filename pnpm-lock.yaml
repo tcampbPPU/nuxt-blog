@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^1.0.0
     version: 1.0.0(postcss@8.4.24)(rollup@3.26.0)(vue@3.3.4)
   '@nuxt/content':
-    specifier: ^2.7.1
-    version: 2.7.1(rollup@3.26.0)
+    specifier: ^2.7.2
+    version: 2.7.2(rollup@3.26.0)
   '@nuxtjs/color-mode':
     specifier: ^3.3.0
     version: 3.3.0(rollup@3.26.0)
@@ -1160,8 +1160,8 @@ packages:
       - vue
     dev: true
 
-  /@nuxt/content@2.7.1(rollup@3.26.0):
-    resolution: {integrity: sha512-v7PozrJncWgo4FhjPSGz2hjcVlKYStZhazA2f2WxocKSpMWShR/bEnukn+7Ns+0oP7Llo53Nlw0LZs/nFL/XIg==}
+  /@nuxt/content@2.7.2(rollup@3.26.0):
+    resolution: {integrity: sha512-fP0nrnyjtFbluKltKUtC7jSMFc1xAH+bwweZyLwXb3gkIap2EHlVL+e9ptGt39+4HIkRkLgME7TNr/fUO+CHug==}
     dependencies:
       '@nuxt/kit': 3.6.5(rollup@3.26.0)
       consola: 3.0.1
@@ -3727,7 +3727,7 @@ packages:
       is-glob: 4.0.3
       minimatch: 3.1.2
       resolve: 1.22.3
-      semver: 7.5.3
+      semver: 7.5.4
     transitivePeerDependencies:
       - '@typescript-eslint/parser'
       - eslint-import-resolver-typescript
