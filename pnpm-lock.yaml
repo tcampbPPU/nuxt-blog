@@ -39,8 +39,8 @@ devDependencies:
     specifier: ^0.4.2
     version: 0.4.2(rollup@3.26.0)(vue@3.3.4)
   nuxt-simple-sitemap:
-    specifier: ^3.0.12
-    version: 3.0.12(nuxt@3.6.5)(rollup@3.26.0)(vite@4.3.9)
+    specifier: ^3.0.15
+    version: 3.0.15(nuxt@3.6.5)(rollup@3.26.0)(vite@4.3.9)
   typescript:
     specifier: ^5.1.6
     version: 5.1.6
@@ -1219,8 +1219,8 @@ packages:
     resolution: {integrity: sha512-GBzP8zOc7CGWyFQS6dv1lQz8VVpz5C2yRszbXufwG/9zhStTIH50EtD87NmWbTMwXDvZLNg8GIpb1UFdH93JCA==}
     dev: true
 
-  /@nuxt/devtools-kit@0.7.0(nuxt@3.6.5)(rollup@3.26.0)(vite@4.3.9):
-    resolution: {integrity: sha512-cbSeiIjWau2LxNgo1YHmUunA88IQEESJOlYgpJFxyOkDXzpKaR6xA0i6MT0zZTmQFCkT+u7DtExdp999icbwXQ==}
+  /@nuxt/devtools-kit@0.7.1(nuxt@3.6.5)(rollup@3.26.0)(vite@4.3.9):
+    resolution: {integrity: sha512-g7OgrU0VlW9fibLdHmhad4tEQzkS4g8yxaqDD/Kri/i3mEOeS7w9E8x7kkA/56FmmnXe6F6lCcLqG6u3FYW6WA==}
     peerDependencies:
       nuxt: ^3.6.1
       vite: '*'
@@ -3727,7 +3727,7 @@ packages:
       is-glob: 4.0.3
       minimatch: 3.1.2
       resolve: 1.22.3
-      semver: 7.5.3
+      semver: 7.5.4
     transitivePeerDependencies:
       - '@typescript-eslint/parser'
       - eslint-import-resolver-typescript
@@ -4072,6 +4072,17 @@ packages:
 
   /fast-glob@3.3.0:
     resolution: {integrity: sha512-ChDuvbOypPuNjO8yIDf36x7BlZX1smcUMTTcyoIjycexOxd6DFsKsg21qVBzEmr3G7fUKIRy2/psii+CIUt7FA==}
+    engines: {node: '>=8.6.0'}
+    dependencies:
+      '@nodelib/fs.stat': 2.0.5
+      '@nodelib/fs.walk': 1.2.8
+      glob-parent: 5.1.2
+      merge2: 1.4.1
+      micromatch: 4.0.5
+    dev: true
+
+  /fast-glob@3.3.1:
+    resolution: {integrity: sha512-kNFPyjhh5cKjrUltxs+wFx+ZkbRaxxmZ+X0ZU31SOsxCEtP9VPgtq2teZw1DebupL5GmDaNQ6yKMMVcM41iqDg==}
     engines: {node: '>=8.6.0'}
     dependencies:
       '@nodelib/fs.stat': 2.0.5
@@ -6240,20 +6251,21 @@ packages:
       - vue
     dev: true
 
-  /nuxt-simple-sitemap@3.0.12(nuxt@3.6.5)(rollup@3.26.0)(vite@4.3.9):
-    resolution: {integrity: sha512-2rCsTZTv4pNrG/vo7GxAheFv7wdIOgTAadOs5K8MxXz3DSh6+m3WBBuR2xWh+HLvKMGXa+qiMqSqRWSFogM+hA==}
+  /nuxt-simple-sitemap@3.0.15(nuxt@3.6.5)(rollup@3.26.0)(vite@4.3.9):
+    resolution: {integrity: sha512-7XBOrlYYr+OleSF63BH0THiAGdJhHyxyttQxb9c8w2tau1xg+zHrmxWKJZKFlaux6e4femsmZB2M/kRNuYq7Tw==}
     dependencies:
-      '@nuxt/devtools-kit': 0.7.0(nuxt@3.6.5)(rollup@3.26.0)(vite@4.3.9)
+      '@nuxt/devtools-kit': 0.7.1(nuxt@3.6.5)(rollup@3.26.0)(vite@4.3.9)
       '@nuxt/kit': 3.6.5(rollup@3.26.0)
       chalk: 5.3.0
       defu: 6.1.2
       escape-string-regexp: 5.0.0
-      fast-glob: 3.3.0
+      fast-glob: 3.3.1
       knitwork: 1.0.0
       nuxt-site-config: 1.0.7(rollup@3.26.0)
       nuxt-site-config-kit: 1.0.7(rollup@3.26.0)
       pathe: 1.1.1
       radix3: 1.0.1
+      semver: 7.5.4
       site-config-stack: 1.0.7(rollup@3.26.0)
       ufo: 1.1.2
     transitivePeerDependencies:
@@ -8394,7 +8406,7 @@ packages:
     dependencies:
       '@rollup/pluginutils': 5.0.2(rollup@3.26.0)
       escape-string-regexp: 5.0.0
-      fast-glob: 3.3.0
+      fast-glob: 3.3.1
       local-pkg: 0.4.3
       magic-string: 0.30.1
       mlly: 1.4.0
