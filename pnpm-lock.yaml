@@ -39,8 +39,8 @@ devDependencies:
     specifier: ^0.5.0
     version: 0.5.0(rollup@3.26.0)(vue@3.3.4)
   nuxt-simple-sitemap:
-    specifier: ^3.1.7
-    version: 3.1.7(nuxt@3.6.5)(rollup@3.26.0)(vite@4.3.9)
+    specifier: ^3.2.5
+    version: 3.2.5(nuxt@3.6.5)(rollup@3.26.0)(vite@4.3.9)
   typescript:
     specifier: ^5.1.6
     version: 5.1.6
@@ -6293,8 +6293,8 @@ packages:
       - vue
     dev: true
 
-  /nuxt-simple-sitemap@3.1.7(nuxt@3.6.5)(rollup@3.26.0)(vite@4.3.9):
-    resolution: {integrity: sha512-H9N2mVhLyDD8p5hsLbd0nLJGSUDwgEjEz3EBUiFGYp6uN83YxR/Qjcn88iIw8WL2GAmhIBO+1oqO/lbGZO2u4w==}
+  /nuxt-simple-sitemap@3.2.5(nuxt@3.6.5)(rollup@3.26.0)(vite@4.3.9):
+    resolution: {integrity: sha512-LOhCm3SwyZvXRg8g13TNA+XJCJbycZ8+WSY3w+ocbFqQ2+n1fXLQoFAT3FnayTaUy9kNtVbsubab2Be+4e7Bww==}
     dependencies:
       '@nuxt/devtools-kit': 0.8.0(nuxt@3.6.5)(rollup@3.26.0)(vite@4.3.9)
       '@nuxt/kit': 3.6.5(rollup@3.26.0)
@@ -6306,7 +6306,7 @@ packages:
       nuxt-site-config: 1.0.10(rollup@3.26.0)
       nuxt-site-config-kit: 1.0.10(rollup@3.26.0)
       pathe: 1.1.1
-      radix3: 1.0.1
+      radix3: 1.1.0
       semver: 7.5.4
       site-config-stack: 1.0.10(rollup@3.26.0)
       ufo: 1.2.0
@@ -7326,6 +7326,10 @@ packages:
 
   /radix3@1.0.1:
     resolution: {integrity: sha512-y+AcwZ3HcUIGc9zGsNVf5+BY/LxL+z+4h4J3/pp8jxSmy1STaCocPS3qrj4tA5ehUSzqtqK+0Aygvz/r/8vy4g==}
+    dev: true
+
+  /radix3@1.1.0:
+    resolution: {integrity: sha512-pNsHDxbGORSvuSScqNJ+3Km6QAVqk8CfsCBIEoDgpqLrkD2f3QM4I7d1ozJJ172OmIcoUcerZaNWqtLkRXTV3A==}
     dev: true
 
   /randombytes@2.1.0:
