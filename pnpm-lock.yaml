@@ -12,8 +12,8 @@ devDependencies:
     specifier: ^0.41.0
     version: 0.41.0(eslint@8.48.0)(typescript@5.2.2)
   '@nuxt-themes/elements':
-    specifier: ^1.0.5
-    version: 1.0.5(postcss@8.4.29)(rollup@3.26.0)(vue@3.3.4)
+    specifier: ^1.0.6
+    version: 1.0.6(postcss@8.4.29)(rollup@3.26.0)(vue@3.3.4)
   '@nuxt-themes/typography':
     specifier: ^1.0.1
     version: 1.0.1(postcss@8.4.29)(rollup@3.26.0)(vue@3.3.4)
@@ -1335,8 +1335,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@nuxt-themes/elements@1.0.5(postcss@8.4.29)(rollup@3.26.0)(vue@3.3.4):
-    resolution: {integrity: sha512-2LTPZJpbpbvBbkj7arlvpZl59sur8Nkk730jSwTAsBRKy7IYd1ZGqyr6lH/XbvykGGpxvdx0N9sGCrBJcEoW+Q==}
+  /@nuxt-themes/elements@1.0.6(postcss@8.4.29)(rollup@3.26.0)(vue@3.3.4):
+    resolution: {integrity: sha512-aWjW0FubjVzb0PxCt24R1aikyiXnn1cCi4uH+k9ryAUzIQkGVh1/xhQ/ulyvrb3aXWTUSwgJoV5U4Vd/SGAFmQ==}
     dependencies:
       '@floating-ui/vue': 1.0.2(vue@3.3.4)
       '@nuxt-themes/tokens': 2.1.1(postcss@8.4.29)(rollup@3.26.0)(vue@3.3.4)
