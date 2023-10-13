@@ -39,8 +39,8 @@ devDependencies:
     specifier: ^0.5.0
     version: 0.5.0(rollup@3.29.2)(vue@3.3.4)
   nuxt-simple-sitemap:
-    specifier: ^3.3.6
-    version: 3.3.6(nuxt@3.7.4)(rollup@3.29.2)(vite@4.4.9)(vue@3.3.4)
+    specifier: ^3.4.0
+    version: 3.4.0(nuxt@3.7.4)(rollup@3.29.2)(vite@4.4.9)(vue@3.3.4)
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
@@ -7199,8 +7199,8 @@ packages:
       - vue
     dev: true
 
-  /nuxt-simple-sitemap@3.3.6(nuxt@3.7.4)(rollup@3.29.2)(vite@4.4.9)(vue@3.3.4):
-    resolution: {integrity: sha512-PuEKi2DJCZZSoObV6pManWX2zbDQKbiZEkhyXIaZPVZ9LZzSP70WG6S4ea7AajTpZpQR2jjjfQHJSFy0gI1xWQ==}
+  /nuxt-simple-sitemap@3.4.0(nuxt@3.7.4)(rollup@3.29.2)(vite@4.4.9)(vue@3.3.4):
+    resolution: {integrity: sha512-mH6ubD8zrz3Gyc30T3SmQ8I+OaKFeo7BK+RaQba4b8GXYmVu6mN4IVjXW0loaGymJvSuwS7uYlHFYKsjjohzrQ==}
     dependencies:
       '@nuxt/devtools-kit': 0.8.5(nuxt@3.7.4)(rollup@3.29.2)(vite@4.4.9)
       '@nuxt/kit': 3.7.4(rollup@3.29.2)
