@@ -36,8 +36,8 @@ devDependencies:
     specifier: ^1.1.4
     version: 1.1.4(rollup@3.29.2)(vue@3.3.4)
   nuxt-icon:
-    specifier: ^0.6.0
-    version: 0.6.0(rollup@3.29.2)(vue@3.3.4)
+    specifier: ^0.6.1
+    version: 0.6.1(rollup@3.29.2)(vue@3.3.4)
   nuxt-simple-sitemap:
     specifier: ^3.4.1
     version: 3.4.1(nuxt@3.8.0)(rollup@3.29.2)(vite@4.5.0)(vue@3.3.4)
@@ -8114,8 +8114,8 @@ packages:
       - vue
     dev: true
 
-  /nuxt-icon@0.6.0(rollup@3.29.2)(vue@3.3.4):
-    resolution: {integrity: sha512-yFhdd1inv8z4soCF8HZphVMn0wJJN+5m+ZHs1QQblrdxXJDV7UuZeTjN6Fy8VDHfWbZJm6coXSQrK483kU+ipA==}
+  /nuxt-icon@0.6.1(rollup@3.29.2)(vue@3.3.4):
+    resolution: {integrity: sha512-a4/MEmbP2hXB0sLWBqevC+569FADEMs+VfYJ6nzbktUSJY57/PoHyen0PtqAAkMjGGhHgDVHAcjy5RCJyYZRYg==}
     dependencies:
       '@iconify/vue': 4.1.1(vue@3.3.4)
       '@nuxt/kit': 3.8.0(rollup@3.29.2)
